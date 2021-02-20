@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="424dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                app:srcCompat="@drawable/carousell" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Our Values"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/serve" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:text="We Serve"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Our customers are the sole arbiter of the value of our products and services. We strive to meet unmet needs and serve the underserved."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/hand_shake" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:text="We Commit"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Our work is our commitment. We commit to our values, institution, customers and supplier. We commit to each other. Above all, we commit to doing the best we can and being the best we can. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/humble" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:text="We Stay Humble"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Our work is our commitment. We commit to our values, institution, customers and supplier. We commit to each other. Above all, we commit to doing the best we can and being the best we can. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:text="Find Us By Waze"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goToUrl"
+                app:srcCompat="@drawable/wzz" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Whatapps Us : +6016-948 7067 For Enquiry"
+                android:onClick="goToUrl2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
